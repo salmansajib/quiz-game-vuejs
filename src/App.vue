@@ -1,12 +1,11 @@
 <script setup>
-import { ref, watch } from "vue";
-import q from "@/data/quizes.json";
+import { computed, ref } from "vue";
+import quizes from "@/data/quizes.json";
 
-const quizes = ref(q);
 const search = ref("");
 
-watch(search, () => {
-  quizes.value = q.filter((quiz) =>
+const filteredQuizes = computed(() => {
+  return quizes.filter((quiz) =>
     quiz.name.toLowerCase().includes(search.value.toLowerCase())
   );
 });
@@ -30,16 +29,20 @@ watch(search, () => {
     <main
       class="container mx-auto flex gap-5 flex-wrap items-center justify-center my-5 cursor-pointer"
     >
-      <div v-if="quizes.length === 0">
+      <div v-if="filteredQuizes.length === 0">
         <h2 class="text-xl text-red-500">Sorry, No match found!</h2>
       </div>
       <div
         v-else
-        v-for="quiz in quizes"
+        v-for="quiz in filteredQuizes"
         :key="quiz.id"
-        class="w-full max-w-[320px] shadow-md flex flex-col gap-2 overflow-hidden rounded-md"
+        class="group bg-slate-100 w-full max-w-[320px] shadow-md flex flex-col gap-2 overflow-hidden rounded-md"
       >
-        <img class="w-full h-[190px] bg-cover" :src="quiz.img" alt="" />
+        <img
+          class="w-full h-[190px] bg-cover group-hover:scale-105 transition-transform duration-200"
+          :src="quiz.img"
+          alt=""
+        />
         <div class="p-2">
           <h2 class="text-xl font-semibold">{{ quiz.name }}</h2>
           <p>{{ quiz.questions.length }}</p>
