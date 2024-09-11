@@ -4,8 +4,6 @@ import { useRouter } from "vue-router";
 const router = useRouter();
 const { quiz } = defineProps(["quiz"]);
 
-console.log(quiz);
-
 const navigateToQuiz = () => {
   router.push(`/quiz/${quiz.id}`);
 };
