@@ -289,5 +289,340 @@
         ]
       }
     ]
+  },
+  {
+    "id": 4,
+    "img": "https://cdn.pixabay.com/photo/2024/05/25/16/33/ai-generated-8787379_1280.jpg",
+    "name": "Physics",
+    "questions": [
+      {
+        "id": 1,
+        "text": "What is the speed of light?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "5 x 10^8 m/s",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "7 x 10^8 m/s",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "3 x 10^8 m/s",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "9 x 10^8 m/s",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is Newton's third law?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "F = ma",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Every action has an equal and opposite reaction",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Energy cannot be created or destroyed",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "An object in motion stays in motion",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "img": "https://cdn.pixabay.com/photo/2013/04/08/14/22/stonehenge-101801_1280.jpg",
+    "name": "History",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Who was the first President of the United States?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Thomas Jefferson",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Abraham Lincoln",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "George Washington",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "John Adams",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "When did World War II end?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "1942",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "1945",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "1950",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "1939",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "img": "https://cdn.pixabay.com/photo/2018/03/25/19/59/map-3260506_1280.jpg",
+    "name": "Geography",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which is the largest continent by area?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Africa",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Asia",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Europe",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "North America",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What is the capital of France?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Rome",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Paris",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Madrid",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "img": "https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg",
+    "name": "Computer Science",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Which is a high-level programming language?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Assembly",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Python",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Machine code",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Binary",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What does HTML stand for?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Hyperlinks and Text Management Language",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "HyperText Markup Language",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Home Tool Markup Language",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Hyper Transfer Markup Language",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "img": "https://cdn.pixabay.com/photo/2015/10/10/13/03/prague-980732_1280.jpg",
+    "name": "Literature",
+    "questions": [
+      {
+        "id": 1,
+        "text": "Who wrote 'To Kill a Mockingbird'?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "F. Scott Fitzgerald",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "J.D. Salinger",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Harper Lee",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "George Orwell",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What genre does '1984' belong to?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Romance",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Science fiction",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Dystopian",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Fantasy",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
   }
 ]

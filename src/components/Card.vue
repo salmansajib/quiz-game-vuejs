@@ -15,7 +15,7 @@ const navigateToQuiz = () => {
     class="group bg-slate-100 w-full max-w-[320px] shadow-md flex flex-col gap-2 overflow-hidden rounded-md"
   >
     <img
-      class="w-full h-[200px] scale-105 group-hover:scale-110 transition-transform duration-200"
+      class="w-full h-[200px] object-cover scale-105 group-hover:scale-110 transition-transform duration-200"
       :src="quiz.img"
       alt=""
     />
