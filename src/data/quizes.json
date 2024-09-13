@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "https://marvel-b1-cdn.bc0a.com/f00000000026007/resilienteducator.com/wp-content/uploads/2012/11/AdobeStock_60467600_cup.jpg",
+    "img": "https://cdn.pixabay.com/photo/2020/09/23/03/54/background-5594879_1280.jpg",
     "name": "Math",
     "questions": [
       {
@@ -98,12 +98,12 @@
   },
   {
     "id": 2,
-    "img": "https://blogs.biomedcentral.com/on-biology/wp-content/uploads/sites/5/2017/12/DNA.png",
+    "img": "https://cdn.pixabay.com/photo/2013/07/18/10/55/dna-163466_1280.jpg",
     "name": "Biology",
     "questions": [
       {
         "id": 1,
-        "text": "The Kreb Cycles occurs in the",
+        "text": "Which of the following is the powerhouse of the cell?",
         "options": [
           {
             "id": 1,
@@ -114,79 +114,109 @@
           {
             "id": 2,
             "label": "B",
-            "text": "Nucleus",
+            "text": "Ribosome",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "Rough ER",
+            "text": "Nucleus",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "Cystol",
+            "text": "Golgi Apparatus",
             "isCorrect": false
           }
         ]
       },
       {
         "id": 2,
-        "text": "How many oxygen molecules can hemoglobin hold",
+        "text": "What is the basic unit of life?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "1",
-            "isCorrect": false
+            "text": "Cell",
+            "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "2",
+            "text": "Tissue",
             "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "3",
+            "text": "Organ",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "4",
-            "isCorrect": true
+            "text": "Molecule",
+            "isCorrect": false
           }
         ]
       },
       {
         "id": 3,
-        "text": "The cones see ___ while the rods see ___",
+        "text": "DNA is composed of which of the following nucleotides?",
         "options": [
           {
             "id": 1,
             "label": "A",
-            "text": "black and white; color",
-            "isCorrect": false
+            "text": "Adenine, Thymine, Guanine, Cytosine",
+            "isCorrect": true
           },
           {
             "id": 2,
             "label": "B",
-            "text": "color; black and white",
-            "isCorrect": true
+            "text": "Adenine, Uracil, Guanine, Cytosine",
+            "isCorrect": false
           },
           {
             "id": 3,
             "label": "C",
-            "text": "3D objects; 2D shapes",
+            "text": "Adenine, Thymine, Guanine, Uracil",
             "isCorrect": false
           },
           {
             "id": 4,
             "label": "D",
-            "text": "2D shapes; 3D objects",
+            "text": "Adenine, Cytosine, Uracil, Guanine",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Which of these is not a function of proteins in the body?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Enzymatic reactions",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Hormonal regulation",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Energy storage",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Cell structure",
             "isCorrect": false
           }
         ]
@@ -195,7 +225,7 @@
   },
   {
     "id": 3,
-    "img": "http://jobs.newscientist.com/getasset/c40a5488-11be-43b0-843f-a2e6ef9f0612/",
+    "img": "https://cdn.pixabay.com/photo/2019/01/29/16/51/periodic-system-3962844_1280.jpg",
     "name": "Chemistry",
     "questions": [
       {
@@ -354,6 +384,96 @@
             "isCorrect": false
           }
         ]
+      },
+      {
+        "id": 3,
+        "text": "What is the unit of force?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Joule",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Newton",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Pascal",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Watt",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What is the formula for gravitational force?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "F = mv^2/r",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "F = G(m1m2)/r^2",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "F = ma",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "F = kq1q2/r^2",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the SI unit of energy?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Joule",
+            "isCorrect": true
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Newton",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Watt",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Pascal",
+            "isCorrect": false
+          }
+        ]
       }
     ]
   },
@@ -418,6 +538,66 @@
             "id": 4,
             "label": "D",
             "text": "1939",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What ancient civilization built the pyramids?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Romans",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Greeks",
+            "isCorrect": false
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Egyptians",
+            "isCorrect": true
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Persians",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Who was the British Prime Minister during World War II?",
+        "options": [
+          {
+            "id": 1,
+            "label": "A",
+            "text": "Neville Chamberlain",
+            "isCorrect": false
+          },
+          {
+            "id": 2,
+            "label": "B",
+            "text": "Winston Churchill",
+            "isCorrect": true
+          },
+          {
+            "id": 3,
+            "label": "C",
+            "text": "Clement Attlee",
+            "isCorrect": false
+          },
+          {
+            "id": 4,
+            "label": "D",
+            "text": "Harold Macmillan",
             "isCorrect": false
           }
         ]
@@ -493,7 +673,7 @@
   },
   {
     "id": 7,
-    "img": "https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_1280.jpg",
+    "img": "https://images.unsplash.com/photo-1675495277087-10598bf7bcd1?q=80&w=1288&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "name": "Computer Science",
     "questions": [
       {
